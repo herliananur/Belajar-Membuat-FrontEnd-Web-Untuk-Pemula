@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+input,
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+input,
+button {
+    font-size: 16px;
+    display: flex;
+    margin-top: 10px;
+}
+
+.head_bar {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4bb3cc;
+    color: white;
+}
+
+.penjelasan {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    background-color: #4bb3cc;
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.input_section {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.input_section>h2 {
+    text-align: center;
+    color: #4bb3cc;
+}
+
+.input_section>form>.input {
+    margin: 8px 0;
+}
+
+.input_section>form>button {
+    background-color: #4bb3cc;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.input_section>form>button>span {
+    font-weight: bold;
+}
+
+.input_section>form>.input>input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.input_section>form>.input>label {
+    color: #4bb3cc;
+    font-weight: bold;
+}
+
+.input_section>form>.input_inline {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+}
+
+.input_section>form>.input_inline>label {
+    color: #4bb3cc;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.search_section {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.search_section>h2 {
+    color: #4bb3cc;
+    text-align: center;
+}
+
+.search_section>form>.input {
+    color: #4bb3cc;
+    font-weight: bold;
+}
+
+.search_section>form>input {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.search_section>form>.input>input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.search_section>form>.input>button {
+    background-color: #4bb3cc;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+.book_shelf {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.book_shelf>h2 {
+    color: #4bb3cc;
+    text-align: center;
+}
+
+.book_shelf>.book_list {
+    padding: 16px;
+}
+
+.book_shelf>.book_list>.bookItem {
+    padding: 8px 16px 16px 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.book_shelf>.book_list>.bookItem>h3,
+p {
+    margin: 8px 0;
+}
+
+.book_shelf>.book_list>.bookItem>.action>button {
+    border: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    padding: 8px;
+}
+
+.book_shelf>.book_list>.bookItem>.action>.done {
+    background-color: #154c79;
+    color: white;
+}
+
+.book_shelf>.book_list>.bookItem>.action>.remove {
+    background-color: #ff3333;
+    color: white;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    background-color: #4bb3cc;
+    text-align: center;
+    font-weight: bold;
+}
